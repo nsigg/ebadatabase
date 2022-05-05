@@ -11,9 +11,9 @@ Die CSV Dateien der EBA der Jahre 2015 bis 2020 sind in der Datei data.zip zu fi
 
 Für jedes Jahr gibt es folgende Dateien:
 
-banks.csv Diese Datei muss manuell erstellt werden. Hierzu muss das Bankslist-Sheet der Metadata Exceltabelle in eine CSV-Datei extrahiert werden. Beachte: Die CSV-Datei muss UTF-8 codiert und durch ";" getrennt vorliegen.
-sdd.csv Diese Datei muss manuell erstellt werden. Hierzu muss das einzige Sheet der Data Dictionary Exceltabelle in eine CSV-Datei extrahiert werden. Beachte: Die CSV-Datei muss UTF-8 codiert und durch ";" getrennt vorliegen.
-tr_cre.csv Diese Datei enthält alle Daten zur Credit Risk und kann ohne Anpassung verwendet werden.
-tr_mrk.csv Diese Datei enthält alle Daten zur Market Risk und kann ohne Anpassung verwendet werden.
-tr_oth.csv Diese Datei enthält alle weiteren Daten und kann ohne Anpassung verwendet werden.
-tr_sov.csv Diese Datei enthält alle Daten zur Sovereign Debt Exposure und kann ohne Anpassung verwendet werden.
+- banks.csv Diese Datei muss manuell erstellt werden. Hierzu muss das Bankslist-Sheet der Metadata Exceltabelle in eine CSV-Datei extrahiert werden. Beachte: Die CSV-Datei muss UTF-8 codiert und durch ";" getrennt vorliegen.
+- sdd.csv Diese Datei muss manuell erstellt werden. Hierzu muss das einzige Sheet der Data Dictionary Exceltabelle in eine CSV-Datei extrahiert werden. Beachte: Die CSV-Datei muss UTF-8 codiert und durch ";" getrennt vorliegen.
+- tr_cre.csv Diese Datei enthält alle Daten zur Credit Risk und kann ohne Anpassung verwendet werden.
+- tr_mrk.csv Diese Datei enthält alle Daten zur Market Risk und kann ohne Anpassung verwendet werden.
+- tr_oth.csv Diese Datei enthält alle weiteren Daten und kann ohne Anpassung verwendet werden.
+- tr_sov.csv Diese Datei enthält alle Daten zur Sovereign Debt Exposure und kann ohne Anpassung verwendet werden.
