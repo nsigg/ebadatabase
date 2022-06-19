@@ -1,0 +1,50 @@
+
+def InsertExposureData(dbConnection):
+    cursor = dbConnection.cursor()
+    statements = [
+        "INSERT INTO Exposure VALUES(0, 'Total / No breakdown')",
+        "INSERT INTO Exposure VALUES(101, 'Central banks')",
+        "INSERT INTO Exposure VALUES(102, 'General governments')",
+        "INSERT INTO Exposure VALUES(103, 'Central governments or central banks')",
+        "INSERT INTO Exposure VALUES(104, 'Regional governments or local authorities')",
+        "INSERT INTO Exposure VALUES(105, 'Public sector entities')",
+        "INSERT INTO Exposure VALUES(106, 'Multilateral Development Banks')",
+        "INSERT INTO Exposure VALUES(107, 'International Organisations')",
+        "INSERT INTO Exposure VALUES(201, 'Credit institutions')",
+        "INSERT INTO Exposure VALUES(202, 'Financial corporations other than credit institutions')",
+        "INSERT INTO Exposure VALUES(203, 'Institutions')",
+        "INSERT INTO Exposure VALUES(204, 'Institutions without a short-term credit assessment')",
+        "INSERT INTO Exposure VALUES(301, 'Non-financial corporations')",
+        "INSERT INTO Exposure VALUES(302, 'Corporates - SME')",
+        "INSERT INTO Exposure VALUES(303, 'Corporates')",
+        "INSERT INTO Exposure VALUES(304, 'Corporates - Specialised Lending')",
+        "INSERT INTO Exposure VALUES(305, 'Corporates other than specialised lending')",
+        "INSERT INTO Exposure VALUES(306, 'Corporates without a short-term credit assessment')",
+        "INSERT INTO Exposure VALUES(307, 'Institutions and corporates with a short-term credit assessment')",
+        "INSERT INTO Exposure VALUES(308, 'Corporates - Real estate. Commercial')",
+        "INSERT INTO Exposure VALUES(401, 'Households')",
+        "INSERT INTO Exposure VALUES(402, 'Real estate. Residential')",
+        "INSERT INTO Exposure VALUES(403, 'Credit for consumption')",
+        "INSERT INTO Exposure VALUES(404, 'Retail')",
+        "INSERT INTO Exposure VALUES(405, 'Retail - SME')",
+        "INSERT INTO Exposure VALUES(406, 'Retail – Secured by real estate property')",
+        "INSERT INTO Exposure VALUES(407, 'Retail – Secured by real estate property - SME')",
+        "INSERT INTO Exposure VALUES(408, 'Retail – Secured by real estate property - NON SME')",
+        "INSERT INTO Exposure VALUES(409, 'Retail – Qualifying Revolving')",
+        "INSERT INTO Exposure VALUES(410, 'Retail – Other Retail')",
+        "INSERT INTO Exposure VALUES(411, 'Retail – Other Retail - SME')",
+        "INSERT INTO Exposure VALUES(412, 'Retail – Other Retail - NON SME')",
+        "INSERT INTO Exposure VALUES(501, 'Secured by mortgages on immovable property')",
+        "INSERT INTO Exposure VALUES(502, 'Secured by mortgages on immovable property - SME')",
+        "INSERT INTO Exposure VALUES(601, 'Exposures in default')",
+        "INSERT INTO Exposure VALUES(602, 'Items associated with particularly high risk')",
+        "INSERT INTO Exposure VALUES(603, 'Covered bonds')",
+        "INSERT INTO Exposure VALUES(604, 'Claims on institutions and corporate with a short-term credit assessment')",
+        "INSERT INTO Exposure VALUES(605, 'Claims in the form of CIU')",
+        "INSERT INTO Exposure VALUES(606, 'Equity exposures')",
+        "INSERT INTO Exposure VALUES(607, 'Other items')",
+        "INSERT INTO Exposure VALUES(608, 'Securitisation')"
+    ]
+    for statement in statements:
+        cursor.execute(statement)
+    dbConnection.commit()
